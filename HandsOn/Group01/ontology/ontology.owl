@@ -142,6 +142,14 @@
     
 
 
+    <!-- http://dbpedia.org/page/Parking_meter -->
+
+    <owl:Class rdf:about="http://dbpedia.org/page/Parking_meter">
+        <owl:equivalentClass rdf:resource="http:/www.linkedDataG1.es/Parkimeters#Parkimeters"/>
+    </owl:Class>
+    
+
+
     <!-- http:/www.linkedDataG1.es/Parkimeters#Parkimeters -->
 
     <owl:Class rdf:about="http:/www.linkedDataG1.es/Parkimeters#Parkimeters">
@@ -153,6 +161,7 @@
     <!-- http:/www.linkedDataG1.es/Parking#Parking -->
 
     <owl:Class rdf:about="http:/www.linkedDataG1.es/Parking#Parking">
+        <owl:equivalentClass rdf:resource="https://schema.org/ParkingFacility"/>
         <rdfs:subClassOf rdf:resource="http:/www.linkedDataG1.es/Place#Place"/>
     </owl:Class>
     
@@ -160,13 +169,35 @@
 
     <!-- http:/www.linkedDataG1.es/Place#Place -->
 
-    <owl:Class rdf:about="http:/www.linkedDataG1.es/Place#Place"/>
+    <owl:Class rdf:about="http:/www.linkedDataG1.es/Place#Place">
+        <owl:equivalentClass rdf:resource="https://schema.org/Place"/>
+    </owl:Class>
     
 
 
     <!-- http:/www.linkedDataG1.es/Street#Street -->
 
-    <owl:Class rdf:about="http:/www.linkedDataG1.es/Street#Street"/>
+    <owl:Class rdf:about="http:/www.linkedDataG1.es/Street#Street">
+        <owl:equivalentClass rdf:resource="https://schema.org/streetAddress"/>
+    </owl:Class>
+    
+
+
+    <!-- https://schema.org/ParkingFacility -->
+
+    <owl:Class rdf:about="https://schema.org/ParkingFacility"/>
+    
+
+
+    <!-- https://schema.org/Place -->
+
+    <owl:Class rdf:about="https://schema.org/Place"/>
+    
+
+
+    <!-- https://schema.org/streetAddress -->
+
+    <owl:Class rdf:about="https://schema.org/streetAddress"/>
 </rdf:RDF>
 
 
